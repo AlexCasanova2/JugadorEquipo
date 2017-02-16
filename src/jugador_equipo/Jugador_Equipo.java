@@ -285,7 +285,7 @@ public class Jugador_Equipo {
             String posicion = InputData.pedirCadena("Posicion: ");
             
             Jugador jugador = new Jugador(1, nombre, dia, mes, año, canastas, asistencias, rebotes, posicion);
-            a.getJugadores().(jugador);
+//            a.getJugadores().(jugador);
             FicheroJugadores.grabar(misEquipos);
             
         } else {
